@@ -1,0 +1,85 @@
+/* Reset default margin and padding for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Include border and padding in element's total width and height */
+}
+
+/* Style the App container */
+.App {
+  text-align: left; /* Set text alignment to left */
+  font-family: 'Dancing Script' Arial, sans-serif; /* Use a sans-serif font for better readability */
+  margin-left: 20px; /* Add left margin for spacing */
+  background-color: white;
+}
+
+/* Style the header with a circular shape */
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 50%; /* Create a circular shape */
+}
+
+
+/* Style cellInput */
+.cellInput {
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid groove; /* Light blue border */
+  background-color: #ecf0f1; /* Light gray background color */
+}
+
+/* Style table */
+table {
+  border-collapse: collapse;
+  border: 3px solid #e67e22; /* Orange border */
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+td {
+  padding: 5px;
+}
+
+/* Style cellInputsolved */
+.cellInputsolved {
+  background: #27ae60; /* Green background */
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #333;
+  color: #ecf0f1; /* Light gray text color */
+}
+
+/* Style the button */
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e74c3c; /* Red background color */
+  border: none;
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  width: 150px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Change button background color on hover */
+.btn:hover {
+  background-color: blueviolet; /* Darker red on hover */
+}
