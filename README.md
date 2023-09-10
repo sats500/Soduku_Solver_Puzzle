@@ -21,6 +21,6 @@ Your app is ready to be deployed!
 
 See the section about deployment for more information.
 
-# Built with
+# <h2> Built with</h2>
 # <h3>Tech stack</h3>
 [![Skills](https://skills.thijs.gg/icons?i=js,html,css,react)](https://skills.thijs.gg)
