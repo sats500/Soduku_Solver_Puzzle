@@ -1,4 +1,5 @@
 # Soduku_Solver_Puzzle
+The project is host here: [Sudoku](https://main--spontaneous-duckanoo-b4b347.netlify.app/)
 In the project directory, you can run:
 
 # <H2> npm start</H2>
